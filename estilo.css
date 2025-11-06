@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  width: 90vw;
+  height: 100vh;
+  margin: 0.5em auto;
+  padding: 0.5em;
+  /* border: 1px solid salmon; */
+  
+}
+
+header {
+  height: 15%;
+  background-color: blueviolet;
+  margin: 1em;
+  border-radius: 1em;
+}
+h1 {
+  text-align: center;
+  color: chartreuse;
+}
+nav {
+  height: 10%;
+  background-color: cadetblue;
+  margin: 1em;
+  border-radius: 1em;
+}
+main {
+  height: 53%;
+  margin: 1em;
+  /* border: 1px solid red; */
+}
+footer {
+  height: 15%;
+  background-color: darkolivegreen;
+  margin: 1em;
+  border-radius: 1em;
+}
+section {
+  height: 100%;
+  width: 68%;
+  background-color: aquamarine;
+  margin-left: 0.5em;
+  border-radius: 1em;
+  float: left;
+}
+aside {
+  height: 100%;
+  width: 30%;
+  background-color: burlywood;
+  border-radius: 1em;
+  float: right;
+}
+.articulo {
+  width: 96%;
+  height: 20%;
+  background-color: firebrick;
+  margin: 1em auto;
+  border-radius: 1em;
+  padding-left: 10px;
+  padding-top: 5px;
+  color: white;
+}
